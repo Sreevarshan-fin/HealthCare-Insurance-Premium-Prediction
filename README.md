@@ -1,6 +1,6 @@
-# HealthCare-Insurance-Premium-Prediction
+# HealthCare Insurance Premium Prediction
 
-# HealthCare Insurance Risk Prediction & Model Optimization  
+
 
 ## **Objective**  
 The goal of this project is to develop an accurate and reliable insurance risk prediction model that meets business requirements:  
