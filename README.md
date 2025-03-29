@@ -78,9 +78,30 @@ The goal of this project is to develop an accurate and reliable insurance risk p
 
 ---
 
-## **Final Conclusion & Recommendations**  
-✔ **For Age >25 ("Rest")**, XGBoost (after tuning) meets business requirements with **99.7% accuracy** and **0.3% extreme errors**.  
-✔ **For Age ≤25 ("Young") Without Genetic Factors**, the model failed to meet business requirements (**73% extreme errors**).  
-✔ **For Age ≤25 ("Young") With Genetic Factors**, accuracy improved to **98.7%** and extreme errors were reduced to **2%**, meeting business goals.  
-✔ **A two-model segmentation approach ensures both age groups achieve the required performance thresholds.**  
-✔ **Final Recommendation:** XGBoost (with tuning) is the best model for both segments. 🚀  
+
+**Conclusion**
+
+The insurance risk prediction model was developed using Linear Regression, Ridge Regression, and XGBoost, with a focus on meeting business requirements of >95% accuracy and <10% extreme errors.
+
+**Key Findings:**
+
+Feature Importance: Age and Insurance Plan had the most significant impact on predictions.
+
+**Segmentation Approach Improved Accuracy:**
+
+Older Age Group (>25): XGBoost (Tuned) performed exceptionally well with 99.7% accuracy and only 0.3% extreme errors.
+
+Young Age Group (≤25) Without Genetic Factors: The model struggled, achieving only 60% accuracy with 73% extreme errors, making it unsuitable.
+
+Young Age Group (≤25) With Genetic Factors: Accuracy improved to 98.7% with 2% extreme errors, making it an effective solution.
+
+**Final Decision:**
+
+**A two-model segmentation approach is the best solution:**
+
+Use the XGBoost model (After Tuning) separately for age groups to ensure high accuracy and minimal errors.
+
+For young individuals (≤25), incorporate genetic factors to improve predictions.
+
+This strategy ensures the model meets business expectations, reducing risk while maintaining predictive accuracy.
+
