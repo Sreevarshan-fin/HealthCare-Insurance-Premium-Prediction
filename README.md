@@ -54,9 +54,9 @@ The goal of this project is to develop an accurate and reliable insurance risk p
 | XGBoost (Before Tuning)        | 0.994                 | -                  |
 | XGBoost (After Tuning)         | 0.997                 | 0.3%               |
 
-✔ **XGBoost significantly outperformed Linear & Ridge Regression.**  
-✔ **Hyperparameter tuning improved accuracy to 99.7%.**  
-✔ **Extreme errors reduced to 0.3%, meeting business requirements.**  
+**XGBoost significantly outperformed Linear & Ridge Regression.**  
+**Hyperparameter tuning improved accuracy to 99.7%.**  
+**Extreme errors reduced to 0.3%, meeting business requirements.**  
 
 ---
 
@@ -68,9 +68,9 @@ The goal of this project is to develop an accurate and reliable insurance risk p
 | XGBoost (Before Tuning)        | 0.603                 | -                  |
 | XGBoost (After Tuning)         | 0.599                 | 73%                |
 
-🚨 **Extreme errors were too high (73%), failing business requirements.**  
-🚨 **R² was only ~60%, indicating poor model fit.**  
-🚨 **This approach was not viable, requiring additional features.**  
+ **Extreme errors were too high (73%), failing business requirements.**  
+ **R² was only ~60%, indicating poor model fit.**  
+ **This approach was not viable, requiring additional features.**  
 
 ---
 
@@ -82,9 +82,9 @@ The goal of this project is to develop an accurate and reliable insurance risk p
 | XGBoost (Before Tuning)        | 0.987                 | -                  |
 | XGBoost (After Tuning)         | 0.987                 | 2%                 |
 
-✔ **Introducing genetic factor-based features significantly improved model accuracy.**  
-✔ **Extreme errors reduced from 73% to 2%, now within the acceptable range.**  
-✔ **XGBoost performed best with fine-tuning, achieving ~98.7% accuracy.**  
+ **Introducing genetic factor-based features significantly improved model accuracy.**  
+ **Extreme errors reduced from 73% to 2%, now within the acceptable range.**  
+**XGBoost performed best with fine-tuning, achieving ~98.7% accuracy.**  
 
 ---
 
@@ -95,7 +95,7 @@ The insurance risk prediction model was developed using Linear Regression, Ridge
 
 ### **Key Findings:**
 
-Feature Importance: Age and Insurance Plan had the most significant impact on predictions.
+- Feature Importance: Age and Insurance Plan had the most significant impact on predictions.
 
 ### **Segmentation Approach Improved Accuracy:**
 
