@@ -13,30 +13,30 @@ The objective is to build a reliable model that provides accurate risk estimates
 
 ###  **Objective**  
 The goal of this project is to develop an accurate and reliable insurance risk prediction model that meets business requirements:  
-✔ **Accuracy >95%** (R² ~0.95 or higher)  
-✔ **Extreme error rate ≤10%**  
+ **Accuracy >95%** (R² ~0.95 or higher)  
+ **Extreme error rate ≤10%**  
 
 ## **Feature Importance Analysis**  
-### **Most Important Features:**  
+#### **Most Important Features:**  
 - **Insurance Plan** and **Age** have the strongest impact on predictions.  
 - **Normalized Risk Score** and **BMI Category (Obesity)** also play significant roles.  
 
-### **Moderately Important Features:**  
+#### **Moderately Important Features:**  
 - **Smoking Status (Regular, Occasional)** and **Employment Status (Self-Employed)** contribute but with smaller coefficients.  
 
-### **Least Important Features:**  
+#### **Least Important Features:**  
 - **Marital Status (Unmarried), Number of Dependants, and Income Level** have minimal influence.  
 
 ---
 
 ## **Extreme Error Analysis & Model Segmentation Strategy**  
-### **Issue Identified:**  
+#### **Issue Identified:**  
 - **Initial extreme error rate:** **30%** (far exceeding the acceptable threshold).  
 - **Young Age Group (≤25) Without Genetic Factors:** **Extreme error rate: 73%** – a major performance issue.  
 - **Young Age Group (≤25) With Genetic Factors:** **Extreme error rate: 2%** – significant improvement.  
 - **Older Age Group (>25):** **Extreme error rate: 0.3%** – acceptable performance.  
 
-### **Solution Approach: Segmentation-Based Modeling**  
+#### **Solution Approach: Segmentation-Based Modeling**  
 - **Age Group >25 ("Rest")** – A dedicated model that meets business requirements.  
 - **Age Group ≤25 ("Young") Without Genetic Factors** – Poor accuracy; requires a better approach.  
 - **Age Group ≤25 ("Young") With Genetic Factors** – Introduced genetic factor-based features, improving performance significantly.  
