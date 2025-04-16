@@ -3,11 +3,12 @@
 
 ### **Business Problem**
 Insurance companies need to accurately predict a customer’s health risk to determine premium costs.
+
 Inaccurate predictions can cause:
 
-Undercharging high-risk individuals, resulting in financial losses
+- Undercharging high-risk individuals, resulting in financial losses
 
-Overcharging low-risk individuals, leading to customer dissatisfaction and churn
+- Overcharging low-risk individuals, leading to customer dissatisfaction and churn
 
 The objective is to build a reliable model that provides accurate risk estimates and reduces extreme prediction errors, aligning with business goals.
 
