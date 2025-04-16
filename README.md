@@ -88,15 +88,15 @@ The goal of this project is to develop an accurate and reliable insurance risk p
 ---
 
 
-**Conclusion**
+### **Conclusion**
 
 The insurance risk prediction model was developed using Linear Regression, Ridge Regression, and XGBoost, with a focus on meeting business requirements of >95% accuracy and <10% extreme errors.
 
-**Key Findings:**
+### **Key Findings:**
 
 Feature Importance: Age and Insurance Plan had the most significant impact on predictions.
 
-**Segmentation Approach Improved Accuracy:**
+### **Segmentation Approach Improved Accuracy:**
 
 Older Age Group (>25): XGBoost (Tuned) performed exceptionally well with 99.7% accuracy and only 0.3% extreme errors.
 
@@ -104,7 +104,7 @@ Young Age Group (≤25) Without Genetic Factors: The model struggled, achieving 
 
 Young Age Group (≤25) With Genetic Factors: Accuracy improved to 98.7% with 2% extreme errors, making it an effective solution.
 
-**Final Decision:**
+### **Final Decision:**
 
 **A two-model segmentation approach is the best solution:**
 
