@@ -1,8 +1,17 @@
 # HealthCare Insurance Premium Prediction
 
-http://localhost:8501/
 
-## **Objective**  
+### **Business Problem**
+Insurance companies need to accurately predict a customer’s health risk to determine premium costs.
+Inaccurate predictions can cause:
+
+Undercharging high-risk individuals, resulting in financial losses
+
+Overcharging low-risk individuals, leading to customer dissatisfaction and churn
+
+The objective is to build a reliable model that provides accurate risk estimates and reduces extreme prediction errors, aligning with business goals.
+
+###  **Objective**  
 The goal of this project is to develop an accurate and reliable insurance risk prediction model that meets business requirements:  
 ✔ **Accuracy >95%** (R² ~0.95 or higher)  
 ✔ **Extreme error rate ≤10%**  
