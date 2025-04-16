@@ -99,19 +99,19 @@ Feature Importance: Age and Insurance Plan had the most significant impact on pr
 
 ### **Segmentation Approach Improved Accuracy:**
 
-Older Age Group (>25): XGBoost (Tuned) performed exceptionally well with 99.7% accuracy and only 0.3% extreme errors.
+- Older Age Group (>25): XGBoost (Tuned) performed exceptionally well with 99.7% accuracy and only 0.3% extreme errors.
 
-Young Age Group (≤25) Without Genetic Factors: The model struggled, achieving only 60% accuracy with 73% extreme errors, making it unsuitable.
+- Young Age Group (≤25) Without Genetic Factors: The model struggled, achieving only 60% accuracy with 73% extreme errors, making it unsuitable.
 
-Young Age Group (≤25) With Genetic Factors: Accuracy improved to 98.7% with 2% extreme errors, making it an effective solution.
+- Young Age Group (≤25) With Genetic Factors: Accuracy improved to 98.7% with 2% extreme errors, making it an effective solution.
 
 ### **Final Decision:**
 
 **A two-model segmentation approach is the best solution:**
 
-Use the XGBoost model (After Tuning) separately for age groups to ensure high accuracy and minimal errors.
+- Use the XGBoost model (After Tuning) separately for age groups to ensure high accuracy and minimal errors.
 
-For young individuals (≤25), incorporate genetic factors to improve predictions.
+- For young individuals (≤25), incorporate genetic factors to improve predictions.
 
-This strategy ensures the model meets business expectations, reducing risk while maintaining predictive accuracy.
+- This strategy ensures the model meets business expectations, reducing risk while maintaining predictive accuracy.
 
